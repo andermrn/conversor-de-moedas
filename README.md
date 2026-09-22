@@ -12,7 +12,7 @@ O projeto permite informar um valor em reais (BRL) e realizar a conversão para 
 
 ## 🖥️ Preview
 
-![Preview do Conversor de Moedas](./img/preview.png)
+![Preview do Conversor de Moedas](./imgs/preview.png)
 
 ## 📂 Estrutura do projeto
 
