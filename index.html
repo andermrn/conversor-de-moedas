@@ -16,19 +16,17 @@
   <body>
     <header>
         <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-            <h1 style="color: blue;">ConverterEAJ</h1>
+            <h1>Converter<span>EAJ</span></h1>
             <p>Conversor de moedas simples e prático que desenvolvi para treinar o que ando aprendendo na matéria de autoria web.</p>
         </div>
     </header>
     <main>
-      <div class="conteiner">
+        <div class="container-sm">
           <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-              <!-- Centralizar -->
-              <div class="box0">
-                <h2 style="text-align: center;">Conversor de <span style="color: blue;">moedas</span></h2>
-                <p>Converter Real Brasileiro (BRL) para Dólar Americano (USD)</p>
+              <div style="text-align: center;" class="box0">
+                <h2>Conversor de <span>moedas</span></h2>
+                <p>Converter Real Brasileiro (<span id="moedas">BRL</span>) para Dólar Americano (<span id="moedas">USD</span>)</p>
               </div>
-              <!-- Alinhar -->
               <div class="box1">
                 <h4>De (Moeda origem)</h4>
                 <p>
@@ -36,11 +34,10 @@
                   Brasileiro
                 </p>
               </div>
-              <!-- Alinhar -->
               <div class="box2">
                 <h4>Para (Moeda Destino)</h4>
                 <p>
-                  <img src="imgs/estados-unidos.png" alt="Bandeira USA" />USD - Dólar
+                  <img src="imgs/estados-unidos.png" alt="Bandeira USA" /> USD - Dólar
                   Americano
                 </p>
               </div>
@@ -54,18 +51,15 @@
               </div>
               <div class="box5">
                 <h4>Resultado</h4>
-                <!-- Centralizar -->
                 <div class="box51"></div>
-                <button type="button" class="btn btn-primary">Converter</button>
+                <button onclick="converter()" style="width: 20%;" type="button" class="btn btn-primary">Converter</button>
               </div>
-            </div>
-          </div>
+            </div> 
       </div>
-
     </main>
   </body>
   <footer>
         <p>&copy; Ander Moreno | 2026</p>
-    </div>
   </footer>
+  <script src="script.js"></script>
 </html>

@@ -15,7 +15,19 @@ input {
     width: 100%;
 }
 
+span{
+    color: cornflowerblue;
+}
+
 .conteiner {
     display: flex;
     justify-content: center;
+}
+
+main {
+    background-color: cornflowerblue;
+}
+
+#moedas{
+    color: darkgoldenrod;
 }
