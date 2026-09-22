@@ -22,6 +22,6 @@ conversor-de-moedas/
 ├── index.html
 ├── style.css
 ├── script.js
-├── img/
+├── imgs/
 │   └── preview.png
 └── README.md
