@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+img {
+    width: 50px;
+}
+
+input {
+    width: 100%;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+}

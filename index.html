@@ -9,58 +9,63 @@
       href="imgs/real-brasileiro.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
   </head>
   <body>
     <header>
-      <h1>ConverterEAJ</h1>
-      <p>Conversor de moedas simples e prático.</p>
+        <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+            <h1 style="color: blue;">ConverterEAJ</h1>
+            <p>Conversor de moedas simples e prático que desenvolvi para treinar o que ando aprendendo na matéria de autoria web.</p>
+        </div>
     </header>
     <main>
       <div class="conteiner">
-        <!-- Centralizar -->
-        <div class="box0">
-          <h2>Conversor de moedas</h2>
-          <p>Converter Real Brasileiro (BRL) para Dólar Americano (USD)</p>
-        </div>
-
-        <!-- Alinhar -->
-        <div class="box1">
-          <h4>De (Moeda origem)</h4>
-          <p>
-            <img src="imgs/brasil.png" alt="Bandeira do brasil" />BRL - Real
-            Brasileiro
-          </p>
-        </div>
-
-        <!-- Alinhar -->
-        <div class="box2">
-          <h4>Para (Moeda Destino)</h4>
-          <p>
-            <img src="imgs/estados-unidos.png" alt="Bandeira USA" />USD - Dólar
-            Americano
-          </p>
-        </div>
-
-
-        <div class="box4">
-          <h4>Valor</h4>
-          <form>
-            <input placeholder="Digite o valor" type="number" />
-          </form>
-        </div>
-
-
-        <div class="box5">
-          <h4>Resultado</h4>
-          <!-- Centralizar -->
-          <div class="box51"></div>
-          <button>Converter</button>
-        </div>
+          <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+              <!-- Centralizar -->
+              <div class="box0">
+                <h2 style="text-align: center;">Conversor de <span style="color: blue;">moedas</span></h2>
+                <p>Converter Real Brasileiro (BRL) para Dólar Americano (USD)</p>
+              </div>
+              <!-- Alinhar -->
+              <div class="box1">
+                <h4>De (Moeda origem)</h4>
+                <p>
+                  <img src="imgs/brasil.png" alt="Bandeira do brasil" />BRL - Real
+                  Brasileiro
+                </p>
+              </div>
+              <!-- Alinhar -->
+              <div class="box2">
+                <h4>Para (Moeda Destino)</h4>
+                <p>
+                  <img src="imgs/estados-unidos.png" alt="Bandeira USA" />USD - Dólar
+                  Americano
+                </p>
+              </div>
+              <div class="box4">
+                <h4>Valor</h4>
+                <form>
+                    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                        <input placeholder="Digite o valor" type="number" />
+                    </div>
+                </form>
+              </div>
+              <div class="box5">
+                <h4>Resultado</h4>
+                <!-- Centralizar -->
+                <div class="box51"></div>
+                <button type="button" class="btn btn-primary">Converter</button>
+              </div>
+            </div>
+          </div>
       </div>
+
     </main>
   </body>
   <footer>
-    <!-- Centralizar -->
-    <p>&copy; Ander Moreno| 2026</p>
+        <p>&copy; Ander Moreno | 2026</p>
+    </div>
   </footer>
 </html>
